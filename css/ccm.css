@@ -63,16 +63,28 @@ body {
     font-size: 18px;
     color: #615e62;
 }
-.hero-image {
+/*.hero-image {
     background: url(../img/header.jpeg) no-repeat center;
-    /*background-image: linear-gradient(to bottom, #000c2e, #8f0068);*/
+    !*background-image: linear-gradient(to bottom, #000c2e, #8f0068);*!
     height: 600px;
     position: right;
-    /*background: #007b82;*/
+    !*background: #007b82;*!
     background-size: cover;
     min-height: 280px;
     padding-top: 200px;
     padding-bottom: 40px;
+}*/
+
+.hero {
+    background-size: cover;
+    background-color: #004188;
+    min-height: 350px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.hero-image {
+    height: 200px;
 }
 
 .hero-text {
@@ -93,7 +105,7 @@ body {
 
 .hero-text h2 {
     text-shadow: 0 6px 4px rgba(0, 0, 0, 0.5);
-    font-size: 48px;
+    font-size: 46px;
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
