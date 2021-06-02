@@ -235,12 +235,8 @@ body {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
-    body {
-        margin-top: 56px;
-    }
-
-    .hero-text h1 {
-        font-size: 36px;
+    .hero-text h2 {
+        font-size: 32px;
     }
     .presentacion p {
         font-size: 1.1rem;
@@ -257,7 +253,19 @@ body {
     }
 }
 @media only screen and (max-width: 770px) {
-  #plato {
-    display: none;
-  }
+
+    .hero-text h2 {
+        font-size: 32px;
+    }
+
+    .h1, h1 {
+        font-size: 1.8rem;
+    }
+    .author {
+        font-size: 1.2rem;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
 }
