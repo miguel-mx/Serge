@@ -22,7 +22,7 @@ body {
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #002a58;
     font-weight: 500;
     line-height: 1.2;
@@ -233,6 +233,7 @@ body {
 .card-body p {
     font-size: 1rem;
     color: #545454;
+    text-align: justify;
 }
 
 .small {
