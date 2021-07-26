@@ -175,6 +175,12 @@ body {
     color: #454545;
 }
 
+#schedule {
+    background: #8cb0d9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 #organizadores {
     background: #454545;
     padding-top: 40px;
